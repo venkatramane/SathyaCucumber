@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="113.115218">
+<testcase classname="Sathya Cucumber Automate Project" name="Register Test Scenario" time="21.576007">
+<system-out><![CDATA[Given users enter to crediantial............................................passed
+When title of page..........................................................passed
+Then enter register details "venkat" and "ram" and "evenkatev7@gmail.com" and "456879" and "sertrg".passed
+Then click and navigate to login page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sathya Cucumber Automate Project" name="Register Test Scenario 2" time="27.610004">
+<failure message="org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 18.982&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'&#10;System info: host: 'DESKTOP-KNODTNC', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a5af8bda30524a78b82c5f264a6f2570&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:324)&#13;&#10;&#9;at StepDefination.SathyaLoginStepDef.users_enter_to_crediantial(SathyaLoginStepDef.java:28)&#13;&#10;&#9;at ✽.Given users enter to crediantial(C:/Users/VENKATRAMAN/workspace/CucumberCricbuzzProject/src/main/java/Features/login.feature:4)&#13;&#10;"><![CDATA[Given users enter to crediantial............................................failed
+When title of page..........................................................skipped
+Then enter register details "vewrfesft" and "dsvfdg" and "evenkatev7@gmail.com" and "456879" and "sertrg".skipped
+Then click and navigate to login page.......................................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 18.982
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'DESKTOP-KNODTNC', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a5af8bda30524a78b82c5f264a6f2570
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:324)
+	at StepDefination.SathyaLoginStepDef.users_enter_to_crediantial(SathyaLoginStepDef.java:28)
+	at ✽.Given users enter to crediantial(C:/Users/VENKATRAMAN/workspace/CucumberCricbuzzProject/src/main/java/Features/login.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Sathya Cucumber Automate Project" name="Register Test Scenario 3" time="26.159059">
+<failure message="org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.182&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'&#10;System info: host: 'DESKTOP-KNODTNC', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58260}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ef11fe022be1a537cd28139d058a592f&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:324)&#13;&#10;&#9;at StepDefination.SathyaLoginStepDef.users_enter_to_crediantial(SathyaLoginStepDef.java:28)&#13;&#10;&#9;at ✽.Given users enter to crediantial(C:/Users/VENKATRAMAN/workspace/CucumberCricbuzzProject/src/main/java/Features/login.feature:4)&#13;&#10;"><![CDATA[Given users enter to crediantial............................................failed
+When title of page..........................................................skipped
+Then enter register details "ouikijgfgvenkat" and "dzfzgfdzd" and "evenkatev7@gmail.com" and "456879" and "sertrg".skipped
+Then click and navigate to login page.......................................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.182
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'DESKTOP-KNODTNC', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58260}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ef11fe022be1a537cd28139d058a592f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:324)
+	at StepDefination.SathyaLoginStepDef.users_enter_to_crediantial(SathyaLoginStepDef.java:28)
+	at ✽.Given users enter to crediantial(C:/Users/VENKATRAMAN/workspace/CucumberCricbuzzProject/src/main/java/Features/login.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Sathya Cucumber Automate Project" name="Register Test Scenario 4" time="22.455176">
+<system-out><![CDATA[Given users enter to crediantial............................................passed
+When title of page..........................................................passed
+Then enter register details "sdFafsdf" and "dsfgfg" and "evenkatev7@gmail.com" and "456879" and "sertrg".passed
+Then click and navigate to login page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sathya Cucumber Automate Project" name="login test scenario" time="15.314972">
+<system-out><![CDATA[Given users enter to crediantial............................................passed
+Then user enter "venkat" and "erwn7874".....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
